@@ -19,7 +19,7 @@ In this assignment, I combined Amazon Web Services skills with my already master
 - Created a Bot using AWS Lex. Created intents and sample utterances.
 - Created 4 different slots to ask for name, age, amount to invest, and risk to undertake.
 - Coded using AWS Lambda and used various test samples to test lambda code.
-- Placed my code into my Lex bot
+- Placed my code into my Lex bot.
 
 ### Accomplishing the following main tasks:
 
