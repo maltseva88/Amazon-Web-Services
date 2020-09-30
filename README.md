@@ -15,13 +15,6 @@ In this assignment, I combined Amazon Web Services skills with my already master
 - VS code
 - QuickTime 
 
-## Steps Taken
-
-- Created a Bot using AWS Lex. Created intents and sample utterances.
-- Created 4 different slots to ask for name, age, amount to invest, and risk to undertake.
-- Coded using AWS Lambda and used various test samples to test lambda code.
-- Placed my code into my Lex bot.
-
 ### Accomplishing the following main tasks:
 
 1. **[Initial Robo Advisor Configuration:](#Initial-Robo-Advisor-Configuration)** Define an Amazon Lex bot with a single intent that establishes a conversation about the requirements to suggest an investment portfolio for retirement.
