@@ -5,7 +5,14 @@
 
 Hypothetically, I was hired as a digital transformation consultant by one of the most prominent retirement plan providers in the country; they want to increase their client portfolio, especially by engaging young people. Since machine learning and NLP are disrupting finance to improve customer experience, I decided to create a robo advisor that could be used by customers or potential new customers to get investment portfolio recommendations for retirement.
 
-In this assignment, I combined Amazon Web Services skills with my already mastered Python superpowers, to create a bot that will recommend an investment portfolio for a retirement plan.
+In this assignment, I combined Amazon Web Services skills with my already mastered Python superpowers, to create a bot that will recommend an investment portfolio for a retirement plan. 
+
+## Packages Used
+
+- Amazon AWS
+- Amazon Lex
+- VS code
+- QuickTime
 
 Accomplishing the following main tasks:
 
