@@ -1,6 +1,7 @@
 ### Required Libraries ###
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
+import math
 ### Functionality Helper Functions ###
 def parse_int(n):
     """
@@ -22,8 +23,16 @@ def build_validation_result(is_valid, violated_slot, message_content):
         "message": {"contentType": "PlainText", "content": message_content},
     }
 def validate_data(age, investment_amount, intent_request):
+    age = parse_int(age)
+
+    if math.isnan(age):
+        return build_validation_result(
+            False,
+            'age',
+            'Opps, age is not a number!',
+        )
+
     if age is not None:
-        age = parse_int(age)
         if age >= 65:
             return build_validation_result(
                 False,
